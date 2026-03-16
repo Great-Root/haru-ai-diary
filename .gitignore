@@ -1,0 +1,61 @@
+# Internal docs (not for submission)
+docs/*
+!docs/architecture.png
+
+# Binary / Build
+haru-server
+*.exe
+*.out
+
+# Environment & Secrets
+.env
+*.pem
+*.key
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# User data
+uploads/
+generated/
+
+# Go
+vendor/
+*.test
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+logs/
+*.log
+nohup.out
+
+# Node
+node_modules/
+client/dist/
+.vite/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Temporary
+tmp/
+*.tmp
+avatars/custom/
+
+# Backups
+backup/
